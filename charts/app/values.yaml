@@ -1,6 +1,7 @@
 # replicaCount -- Replica count for deployments.
 replicaCount: 1
 
+
 app:
   # app.name -- Application name: Can be consistent between tracks. (required)
   name: null
@@ -69,6 +70,7 @@ tolerations: []
 affinity: {}
 
 # env -- Environment variables for the application.
+envFrom: null
 env: []
 # - name: ENVIRONMENT
 #   value: production
