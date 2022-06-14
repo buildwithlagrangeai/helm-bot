@@ -19,7 +19,7 @@ imagePullSecrets: []
 
 service:
   # service.enabled -- Enable service resource.
-  enabled: true
+  enabled: false
   # service.type -- Kubernetes service type.
   type: ClusterIP
   # service.port -- Kubernetes service port.
